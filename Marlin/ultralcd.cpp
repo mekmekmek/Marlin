@@ -1352,7 +1352,7 @@ bool lcd_detected(void)
 void lcd_buzz(long duration, uint16_t freq)
 {
 #ifdef LCD_USE_I2C_BUZZER
-  lcd.buzz(duration,freq);
+  lcd_buzz(duration,freq);
 #endif
 }
 
